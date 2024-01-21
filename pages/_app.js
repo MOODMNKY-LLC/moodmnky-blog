@@ -2,7 +2,6 @@ import '@/styles/animate.css' // See: https://animate.style/
 import '@/styles/globals.css'
 import '@/styles/nprogress.css'
 import '@/styles/utility-patterns.css'
-import { BubbleChat } from 'flowise-embed-react'; // Import BubbleChat
 
 // Core styles shared by all of react-notion-x (required)
 import 'react-notion-x/src/styles.css'
@@ -13,6 +12,7 @@ import { GlobalContextProvider } from '@/lib/global'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import ExternalPlugins from '@/components/ExternalPlugins'
 import { CUSTOM_EXTERNAL_CSS, CUSTOM_EXTERNAL_JS, IMG_SHADOW } from '@/blog.config'
+import { BubbleChat } from 'flowise-embed-react'; // Import BubbleChat
 
 const MyApp = ({ Component, pageProps }) => {
   // Custom style CSS and JS imports
